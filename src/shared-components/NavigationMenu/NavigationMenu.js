@@ -1,7 +1,7 @@
 import React from "react";
 import Hamburger from "./Hamburger/Hamburger.js";
 import Menu from "./Menu/Menu.js";
-import './NavigationMenu.css'
+import './NavigationMenu.scoped.css'
 const NavigationMenu = () => {
     const [isActive, setIsActive] = React.useState(() => false);
     function toggleMenu() {

@@ -1,4 +1,4 @@
-import './hamburgers.css'
+import './hamburgers.scoped.css'
 
 const Hamburger = (props) => {
     const hamburgerClasses = "hamburger hamburger--collapse " + (props.isActive ? "is-active" : "");

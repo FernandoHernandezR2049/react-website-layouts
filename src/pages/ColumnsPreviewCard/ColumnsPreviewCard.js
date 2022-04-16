@@ -1,6 +1,6 @@
 import React from "react";
 import Card from './Card'
-import './ColumnsPreviewCard.css'
+import './ColumnsPreviewCard.scoped.css'
 import sedan from './icon-sedans.svg'
 import suv from './icon-suvs.svg'
 import luxury from './icon-luxury.svg'
