@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+fourCardFeatureSection {
+    font-family: 'Poppins';
+}
+
+.page-title {
+    margin-top: 0px;
+    padding-top: 5rem;
+    font-weight: 200;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: hsl(234, 12%, 34%);
+}
+
+.page-title--bold {
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+}
+
+.main-text {
+
+    padding: 2rem;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    color: hsl(229, 6%, 66%);
+    line-height: 2;
+    max-width: 50ch;
+}
+
+.four-card-container {
+    display: grid;
+    width: 70%;
+    grid-template-columns: 1fr;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.feature-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+    padding: 2rem;
+    min-height: 10rem;
+    box-shadow: rgba(89, 89, 109, 0.3) 0px 7px 29px 0px;
+    border-top: 4px solid;
+    border-radius: 6px;
+    margin-bottom: 1.5rem;
+    font-size: 15px;
+    overflow: hidden;
+
+}
+
+.feature-card-title {
+    color: hsl(234, 12%, 34%);
+    font-size: 1.2rem;
+}
+
+.feature-card-text {
+    color: hsl(229, 6%, 66%);
+}
+
+.features-card-image {
+    align-self: flex-end;
+}
+
+.two-card-container {
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+
+    .page-title,
+    .page-title--bold {
+        font-size: 2rem;
+    }
+
+    .four-card-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+        width: 100%;
+    }
+
+    .feature-card {
+
+        min-height: 10vw;
+        margin: 2rem auto;
+        width: 60%;
+
+    }
+
+
+
+}
+
+@media (min-width: 1200px) {
+    .four-card-container {
+        max-width: 80%;
+    }
+
+    .feature-card {
+        width: 75%;
+    }
+
+}
