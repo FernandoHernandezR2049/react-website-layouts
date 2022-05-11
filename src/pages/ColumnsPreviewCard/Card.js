@@ -1,4 +1,5 @@
 import React from "react";
+import './ColumnsPreviewCard.scoped.css'
 
 const Card = (props) => {
     const btnClass = `card_btn ${props.btnText}`
