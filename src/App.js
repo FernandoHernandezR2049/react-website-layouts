@@ -5,6 +5,7 @@ import ColumnsPreviewCard from './pages/ColumnsPreviewCard/ColumnsPreviewCard';
 import Home from './pages/Home/Home';
 import NavigationMenu from './shared-components/NavigationMenu/NavigationMenu';
 import FourCardFeatureSection from './pages/FourCardFeatureSection/FourCardFeatureSection';
+import SinglePriceGrid from './pages/SinglePriceGrid/SinglePriceGrid';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/columns-preview-card' element={<ColumnsPreviewCard />} />
         <Route path='/four-card-feature-section' element={<FourCardFeatureSection />} />
+        <Route path='/single-price-grid' element={<SinglePriceGrid />} />
       </Routes>
     </div>
   );
