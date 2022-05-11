@@ -1,4 +1,5 @@
 import React from "react";
+import './FourCardFeatureSection.scoped.css'
 
 const Card = (props) => {
     const cardStyle = { borderTopColor: props.borderColor }
